@@ -33,17 +33,7 @@ npm run build
 
 Les fichiers de build seront générés dans le dossier `dist/`
 
-## 📤 Déploiement
-
-### Netlify
-
-1. Connectez-vous à votre compte Netlify
-2. Importez votre repository GitHub
-3. La configuration automatique utilisera `netlify.toml`
-4. Le build utilisera la commande : `npm install && npx vite build`
-5. Le dossier de publication : `dist/`
-
-### Vercel
+## 📤 Déploiement sur Vercel
 
 1. Connectez-vous à votre compte Vercel
 2. Importez votre repository GitHub
@@ -91,7 +81,6 @@ libranova/
 │   ├── services/        # Services (auth, library)
 │   └── utils/           # Utilitaires et helpers
 ├── public/              # Fichiers statiques
-├── netlify.toml         # Configuration Netlify
 ├── vercel.json          # Configuration Vercel
 └── package.json         # Dépendances
 ```
